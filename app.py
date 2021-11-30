@@ -1,6 +1,8 @@
+#!/usr/bin/env bash
+
 import pickle
 import logging
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 import numpy as np
 from ast import literal_eval
 from flask import Flask, request
